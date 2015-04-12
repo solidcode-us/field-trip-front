@@ -1,0 +1,536 @@
+@charset "utf-8";
+/* CSS Document For Experiences Layout*/
+
+#wants, #who {max-width:730px;}
+
+.nav-pills {text-align:center;}
+.nav-tabs {text-align:left;}
+
+.page-content {
+    float: left;
+    max-height: 100%;
+    overflow: auto;
+    padding: 0 0 0 272px;
+    position: relative;
+    width: 100%;
+}
+.sidebar {
+    float: left;
+    overflow: auto;
+    padding: 0;
+    position: fixed;
+    width: 272px;
+	height:100%;
+	z-index:22;
+}
+
+.well-box-in.about {overflow:hidden;padding:0;position:relative;z-index:10;}
+
+.exp-cover {
+	float:left;
+	width:100%;
+	height:auto;
+	margin-bottom:0;
+	overflow:hidden;
+	background-color:#111;
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-size:auto 100%;
+	background-attachment: scroll;
+}
+.exp-title {
+	background: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,1)); /*Safari 5.1-6*/
+	background: -o-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,1)); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,1)); /*Fx 3.6-15*/
+	background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)); /*Standard*/
+
+    bottom: 0;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 50px 20px 15px;
+    position: absolute;
+    transition: all 0.5s ease-in-out 0s;
+    width: 100%; 
+}
+.exp-title p {
+    font-size: 12px;
+    font-weight: 600;
+    float: left;
+	margin:0;
+    width: 70%;
+}
+.exp-title p + p {
+    width: 30%;
+    text-align: right;
+}
+.exp-hours,
+.exp-loc {
+	float:left;
+	color:#555;
+    display: block;
+    font-weight: 400;
+    margin: 0;
+    overflow: hidden;
+    padding: 15px;
+    text-overflow: ellipsis;
+    text-transform: none;
+    white-space: nowrap;
+    width: 50%;
+}
+.exp-hours {font-weight:600; font-size:14.5px;}
+.exp-hours small {font-weight:400; font-size:12px; color:#999;}
+
+.exp-loc {text-align:right;font-size: 12px;}
+.exp-about {padding:15px 15px 0;float:left;width:100%;border-top:1px solid #dedede;}
+
+.main-content {padding:0 0 30px;}
+body, .sec-top, .sec-bottom, .wrap, .main-content {background-color:#EEE;}
+
+.page-content .well-box-out {padding:20px;width:660px;}
+.well-box-in .exp-header a {color:inherit;}
+.well-box-in:hover .exp-header a {color:#0099ff;}
+
+.page-wrap {padding-top:30px;}
+.table th, .table td {border:none;}
+.well-box {margin-bottom:0;}
+.well-box-about {
+    background-color: #fff;
+    border-bottom: 2px solid #dedede;
+    float: left;
+    font-size: 13px;
+    margin-bottom: 0;
+    padding: 15px;
+    width: 100%;
+}
+.well-box-in h3 {
+    color: #555;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 0 5px;
+}
+.user-profile-div .trip-rating {float:left; margin-left:20px;}
+.search-list {padding-left: 0;}
+
+.nav-pills > li > a {width: 151px;}
+
+.well-box-in .input-prepend {float:left;width:auto;margin-right:10px;}
+
+.right-nav.wide .people li {float: left;}
+.right-nav.wide h3 {line-height: 22px;}
+.table.cost th,
+.table.cost td {font-size: 14px;}
+
+.table.cost.note th,
+.table.cost.note td {font-size:12px;color:#999;}
+
+.table.cost a .fa-ticket,
+.table.cost a .fa-calendar {color:#999;}
+.table.cost a:hover .fa-ticket {color:#FF8300;}
+.table.cost a:hover .fa-calendar {color:#0099ff;}
+
+/******* Sidebar Calendar ******/
+.sb-cal .ui-widget-content {
+    background-color: #fff;
+    border: medium none;
+    box-shadow: none;
+    color: #333;
+    width: 100%;
+}
+.sb-cal .ui-datepicker td span, 
+.sb-cal .ui-datepicker td a {padding: 0.6em 0.2em;}
+/******* Sidebar Calendar END ******/
+
+.the-space {color:#999;}
+.the-space strong {color:#333;}
+.the-space li + li {margin:5px 0 0;}
+.the-space a {color:inherit;}
+.the-space:hover a {color:#0099ff;}
+.the-space:hover a:hover {color:#999;}
+
+.table.check-in {width:100%; float:left;}
+.table.check-in td {padding:0;}
+
+.table.check-in label {margin:0 0 3px; font-size:14px;}
+.table.check-in .input-prepend {margin:0;}
+.table.check-in .add-on {padding-right:0;}
+.table.check-in input {width:90px;}
+
+.total-price {
+    border-top: 3px dotted #dedede;
+    color: #009900;
+    display: block;
+    float: left;
+    font-size: 33px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: right;
+    width: 100%;
+}
+.total-price small {
+    color: #555;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 0;
+    text-transform: uppercase;
+}
+
+.bck {margin-bottom:40px;}
+hr {margin:15px 0;}
+
+/*********** VOUCHER *******/
+.tix-modal .qrcode {
+    float: left;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.tix-modal .qrcode img {width:80px;height:auto;margin:0 auto;}
+.tix-modal .tix-info {text-align:left; float:left; width:100%; margin-bottom:15px; display:inline-block;}
+.tix-modal .tix-info h4 {font-size: 14.5px;font-weight: 300;}
+.tix-modal .tix-info h5 {
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0.35;
+}
+.tix-modal .tix-info strong {font-weight:700;}
+.tix-modal p {
+    display: block;
+    float: left;
+    font-size: 10px;
+    margin: 0;
+    width: 100%;
+}
+.whos-going-list li {
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 3px 10px 3px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: none;
+    white-space: nowrap;
+    width: 50%;
+}
+/*********** VOUCHER END *******/
+
+
+.menu-content {
+    display: block;
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+.menu-content a {color:inherit;}
+.menu-content a:hover {color:#999; text-decoration:none;}
+.menu-content .btn-lg {font-size:16px;}
+
+/********* Offers page ************/
+.offers.exp {max-width: 1024px;}
+.offers {
+    float: left;
+    padding: 20px 0 20px 20px;
+    width: 100%;
+}
+.offers .map {padding:0 20px;}
+
+.offers .wants-title {padding:0 20px;}
+
+.offers .btn-group > .btn {background-color: #fff;background-image: none;}
+.offers .btn-group > .btn:hover {background-color:#eee;color:#000;}
+.offers .btn-group > .btn.active, .btn-group > .btn:active {
+    background-color: #aaaaaa;
+    border-color: #8f8f8f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.19) inset, 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+.offers .price-range-text {color: #888;font-size: 16px;font-weight: 400;}
+
+.offers .control-group label {color:#555;font-size:14px;font-weight:600;}
+.offers .checkbox.inline {
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    font-size: 12.5px;
+    font-weight: 400;
+	margin-right: 0;
+	margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 33.3333%;
+	-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;
+}
+.offers .checkbox.inline + .checkbox.inline {margin-left:0;}
+
+.idk-wants .checkbox {
+    color: #777;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 0 0;
+    width: auto;
+}
+
+.offer-info {width:100%;float:left;
+    display: block;
+    font-size: 14px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.offer-info > li + li {border-top:1px solid #f5f5f5;margin: 0;}
+.offer-info > li {
+    color: #999;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.offer-info > li > a {
+    display: block;
+    float: left;
+    overflow: hidden;
+    padding: 15px 0 15px 1px;
+    text-overflow: ellipsis;
+    text-transform: none;
+    white-space: nowrap;
+    width: 100%;
+	-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;
+}
+.offer-info .icon {float:left; display:inline-block; margin-right:5px;}
+.offer-info .icon img {height:14px;opacity:.5;}
+
+.offer-info > li .fa-lg, .offer-info li .fa-caret-down {position:absolute;right:0;}
+.offer-info > li:hover,
+.offer-info > li:hover > a,
+.offer-info > li:hover .fa,
+.offer-info > li:hover .icon img {color:#000;opacity:1;}
+
+.offer-info .input-prepend,
+.offer-info .btn {margin:15px 0;}
+
+/********* Offers page VACATION ************/
+.offers .my-vacations {text-align:center; padding:7.5px 20px 0 0;}
+.offers .my-vacations li {float: left;height: 161px;width: 161px;}
+.offers .my-vacations li > a .fa {left: 40%;top: 40%;}
+
+.offers .vacation-title {font-size:20px; color:#666;}
+.vacation-title a {
+    color: inherit;
+    float: left;
+    font-size: 27px;
+    line-height: 0;
+}
+.offers .vacation-title a:hover {color:#999;}
+
+.offers #vacation-title-input {
+    background-color: transparent;
+    border: medium none;
+    border-radius: 0;
+    color: #666;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+	font-weight: 600;
+    height: 28px;
+    margin: 0 5px 0 15px;
+    overflow: visible;
+    padding: 0;
+    width: 450px;
+}
+.offers #vacation-title-input:focus {
+    border-bottom: 1px dotted #999;
+    box-shadow: none;
+}
+.offers #vacation-title-save {float:left;display:none;}
+/********* Offers page VACATION END ************/
+
+/*********** Food Menu / Vacation Days SLIDER *******/
+.food-menu .ms-staff-carousel.ms-round .ms-slide-bgcont {
+    border: 1px solid #dedede;
+    border-bottom: 2px solid #dedede;
+}
+.food-menu .ms-staff-carousel .ms-staff-info {
+    color: #555;
+    height: auto;
+    margin-top: 22px;
+    max-width: 100%;
+    min-height: 20px;
+}
+.ms-staff-carousel {
+    float: left;
+    height: auto;
+    margin: 0 auto;
+    max-width: 880px;
+    overflow: hidden;
+    width: 100%;
+}
+.ms-slide-info.ms-dir-h {
+    position: relative;
+    width: 100%;
+}
+.ms-info h2 {font-size:20px;font-weight:600;margin:0 0 5px;}
+.ms-info h3 {color: #999;font-size: 16px;font-weight: 600;margin: 0 0 5px;}
+.ms-info h3 strong {font-weight: 700;}
+.ms-info h3 small {font-weight: 400;color: #bbb;}
+.ms-info p {
+    color: #aaa;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 15px;
+    min-height: 40px;
+}
+/*********** Food Menu / Vacation Days SLIDER END *******/
+
+/****** TAGS *****************/
+.exp-tag-box {float:left;width:100%;display:block;margin-bottom:20px;}
+.exp-tags {
+	padding-left:0;
+    list-style: none outside none;
+    margin:0;
+	float:left;
+	width:100%;
+}
+.exp-tags li {
+    color: #999;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 10px 10px;
+    text-shadow: 0 0 0 #fff;
+    white-space: nowrap;
+}
+.exp-tags li a {color:#FFF;}
+.exp-tags li:hover a {color:#555;}
+.exp-tags li a:hover {text-decoration:none;}
+/****** TAGS END *****************/
+
+/************** TIPS List ***************/
+.tips {display:block;float:left;width:100%;margin:0;list-style: none outside none;}
+.tips li {
+    display: block;
+    float: left;
+    font-size: 13px;
+    margin-bottom: 0;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+.tips li + li {margin-top:20px;}
+.tips .tip-info {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.tips .tip-info h4 {
+    color: #555;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    margin: 0 0 5px;
+}
+.tips .tip-info p {margin:0;}
+
+/************** TIPS List END ***************/
+
+/****** EXP FEATURES *****************/
+.exp-features {
+	padding-left:0;
+    list-style: none outside none;
+    margin:0;
+	float:left;
+	width:100%;
+}
+.exp-features li {
+    color: #999;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 0 10px;
+    text-shadow: 0 0 0 #fff;
+    white-space: nowrap;
+    width: 33.3333%;
+}
+/****** EXP FEATURES END *****************/
+
+/************ BOOKING OPTIONS ***********/
+.booking-option {
+    display: block;
+    float: left;
+    font-size: 16px;
+    list-style: outside none none;
+    margin: 5px 0 10px;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+}
+.booking-option a {color:inherit;}
+.booking-option > li {
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    color: #333;
+    cursor: pointer;
+    float: left;
+    padding: 5px 3px 5px 20px;
+    position: relative;
+    width: 50%;
+}
+.booking-option > li + li {border-left: 1px solid #dedede;}
+
+.booking-option .icon {
+    border: medium none;
+    color: #cccccc;
+    font-size: 20px;
+    height: 14px;
+    left: 10px;
+    margin-top: -7px;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 14px;
+}
+.booking-option .icon img {float:left;}
+
+.booking-option .right-arrow {font-size:18px;right:2px;}
+.booking-option select {
+	width: 100%;
+	border: none;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+	outline:none;
+	margin:0;
+	padding: 0 10px 0 5px;
+}
+.booking-option > li input[type="text"] {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+	outline:none;
+    border: medium none;
+    height: 33px;
+    margin: 0;
+    outline: medium none;
+    padding: 0 5px 0 15px;
+    width: 100%;
+}
+.booking-option > li input[type="text"]:focus {
+    border: medium none;
+	box-shadow: none;
+}
+
+/************ BOOKING OPTIONS END ***********/

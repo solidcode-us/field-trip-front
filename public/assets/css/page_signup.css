@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document For Experiences Layout*/
+
+.ft-logo-btn {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 90%;
+    float: left;
+    height: 35px;
+    left: 10px;
+    margin-left: 0;
+    top: 5px;
+    width: 35px;
+}
+.ft-logo-btn.wide {
+    background-position: left center;
+    opacity: 1;
+    width: 130px;
+}
+
+.steps-block {float:left;width:100%;display: none;}
+
+.bot-nav {padding: 10px 0;}
+.bot-nav .btn {text-transform:uppercase;min-width:90px;}
+.bot-nav .prev {float:left;}
+.bot-nav .next {float:right;}
+
+.well-box-about.welcome {
+    background-color: #fff;
+    border: medium none;
+    height: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 45px;
+    width: 100%;
+    z-index: 2;
+}
+.well-box-about.welcome h1 {font-size:30px;font-weight:300;margin:0;}
+.well-box-about.welcome h2 {font-size:19px;font-weight:300;margin:20px 0 40px;}
+.well-box-about.welcome h3 {font-size:14px;font-weight:400;opacity:0.4;padding:0;}
+
+.setup-account {
+    border-top: 1px solid #dedede;
+    display: block;
+    float: left;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 15px 0 0;
+    padding: 15px 0 0;
+    text-align: center;
+    width: 100%;
+}
+select {background-image:none;}
+
+.people {text-align: center;padding: 0 0 7.5px;}
+
+.menu-list {border-radius:3px 12px 12px;}

@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document For Experiences Layout*/
+
+#friends, #favorites,
+#message1, #message2 {max-width:730px;}
+
+.nav-pills {text-align:center;}
+.nav-tabs {text-align:left;}
+.nav-tabs > li > a {padding: 0 12px 5px;}
+
+.main-content {padding:0;}
+body, .wrap {background-color: #EEEEEE;}
+
+.profile {
+    float: left;
+    padding: 20px 0 20px 20px;
+    width: 100%;
+}
+.sec-left {
+    float: left;
+    overflow: auto;
+    padding: 0;
+    position: fixed;
+    width: 272px;
+	height:100%;
+	z-index:22;
+}
+.sec-right {
+    float: left;
+    max-height: 100%;
+    overflow: auto;
+    padding: 0 0 0 272px;
+    position: relative;
+    width: 100%;
+}
+
+.sec-right .user-profile-navs {margin-bottom:20px;}
+
+.user-profile-div {padding:0;text-align:left;}
+
+.user-profile-div label {color:#555;font-size:14px;font-weight:600;}
+.user-profile-div hr {margin:15px 0;}
+
+
+.drop-option {font-weight:600;margin:0;}	
+.table th, .table td {border:none;}
+
+.user-profile-div .trip-rating {float:left; margin-left:20px;}
+.search-list {padding-left: 0;}
+
+/********** PHOTOS ***********/
+.open_exp, .edit_exp, .add_exp, .open_user {display:none;}
+.media-modal {margin:0 0 20px;width:100%;overflow:hidden;}
+.media-modal .exp-header,
+.media-modal .exp-footer {
+    background-color: #f5f5f5;
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding: 8px 15px;
+    width: 100%;
+}
+.media-modal .exp-header {border-bottom:1px solid #dedede;}
+.media-modal .exp-footer {border-top:1px solid #dedede;font-weight:400;text-align:center;font-size:16px;}
+.media-modal .exp-footer .btn {margin:0 5px;}
+
+.media-modal .exp-footer a {padding:0 12px;margin:0 3px;display:inline-block;color:#999;}
+.media-modal .exp-footer a p {font-size:12px;margin:0;}
+.media-modal .exp-footer a:hover {color:#000;text-decoration:none;}
+
+.media-modal .close-x {float:right;}
+.media-modal .close-x .fa-times {color:#999;}
+.media-modal .close-x:hover .fa-times {color:#333;}
+
+.media-modal .media, .media-modal .info {float:left;width:100%;}
+.media-modal .media {height: auto; margin:0; background-color:#333;}
+.media-modal .info {padding:15px;}
+.media-modal .media .photos {
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    border: medium none;
+    border-radius: 0;
+    height:360px;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    z-index: 0;
+}
+.media-modal h4 {
+    color: #666;
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    margin:15px 0 5px;
+    width: 100%;
+}
+
+.carousel {margin:0;}
+.carousel-control {
+    border-radius: 6px;
+    font-size: 50px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 22px;
+    width: 40px;
+}
+/**** For Edit Photos *****/
+.media-modal input {margin:0;}
+.media-modal .exp-header input {width:350px;}
+.media-modal .media .people li {height: 107px;width: 167px; margin:0;}
+.media-modal .media .people li > a, 
+.media-modal .media .people li > span, 
+.media-modal .media .people li > label {border: none;border-radius: 6px;box-shadow: 0 0 5px 0 #000;}
+.media-modal .media .people li > a .fa {left: 10px;top: 10px;}
+.media-modal .input-prepend {display: inline-block;float: left;margin-bottom: 10px;margin-right: 15px;}
+/********** PHOTOS END ***********/
+
+
+
+.user-profile-div {
+    float: left;
+	background-color:#FFF;
+    font-size: 12px;
+    margin-bottom: 0;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+.user-profile-div label {color:#555;font-size:14px;font-weight:600;}
+.user-profile-div hr {margin:15px 0;}
+
+.user-profile-div h5, .sidebar h5 {font-weight:600;font-size:14px;margin-bottom: 5px;}
+.user-profile-div h4 {font-weight:300;}
+.user-profile-div strong {font-weight:700;}
+
+.user-profile-info {
+    display: inline-block;
+    float: left;
+    margin: 10px 0;
+    min-height: 70px;
+    padding: 0 0 0 90px;
+    width: 100%;
+}
+.user-profile-photo {
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    border: 1px solid #FFF;
+    border-radius: 12px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+
+    height: 70px;
+    left: 10px;
+    position: absolute;
+    top: auto;
+    width: 70px;
+}
+.user-profile-div .page-header {border:none;padding:0;float:left;width:100%;margin:0 0 5px;}
+.user-profile-div .page-header h1 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    margin:0;
+}
+.user-profile-div .info-bar {font-weight:400;padding:0;}
+.user-profile-div .info-bar li {
+    color: #999;
+    display: block;
+    float: none;
+    font-size: 12px;
+    margin:0;
+}
+.user-profile-div .info-bar li + li {margin:7px 0 0;}
+
+/*** USER PROFILE NAVS ******/
+.profile-navs {
+	padding:15px 0 60px;
+    list-style: none outside none;
+    margin:0 0 30px;
+	float:left;
+	width:100%;
+	text-align: left;
+	position:relative;
+}
+.profile-navs li {
+    display: inline-block;
+    float: left;
+    height: auto;
+    margin: 0;
+    padding:0 0 15px;
+    width: 100%;
+}
+.profile-navs li > a {
+    background-attachment: scroll;
+    background-color:#FFF;
+    background-position:top center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    border: 1px solid #DEDEDE;
+	border-bottom:2px solid #DEDEDE;
+    border-radius: 12px;
+    box-sizing: border-box;
+	color: #FFF;
+    float: left;
+    height:auto;
+    margin:0;
+	overflow:hidden;
+    padding: 0 6px 6px;
+	position:relative;
+    width: 100%;
+    z-index: 2;
+}
+.profile-navs li .thumbs {
+    background-attachment: scroll;
+    background-color: #eee;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    border: 6px solid #fff;
+    border-radius: 12px;
+    color: #555;
+    float: left;
+    font-size: 25px;
+    margin: 0;
+    overflow: hidden;
+    padding: 5% 0 0;
+    position: relative;
+    text-align: center;
+	width:25%;
+	height:65px;
+}
+.profile-navs li .thumbs p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 5px 0 0;
+    opacity: 0.7;
+}
+
+.profile-navs li .thumbs.th-1 {width:50%;height:130px;margin:0;border-radius: 0 12px 12px 12px;}
+
+.profile-navs .map .thumbs {height: 75px;width: 50%;}
+
+.profile-navs li .title {
+    background-color: #fff;
+    color: #555;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 0;
+    padding: 10px 5px 0;
+    width: 100%;
+}
+.profile-navs li .title small {
+    background-color: #777;
+    border-radius: 4px;
+    color: #fff;
+    float: right;
+    font-size: 11px;
+    font-weight: 600;
+    min-width: 16px;
+    padding: 0 3px;
+    text-align: center;
+}
+/*** USER PROFILE NAVS END ******/

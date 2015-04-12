@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document For Desktop Layout*/
+
+
+@media (min-width: 801px) and (max-width: 1200px){
+.bucketlist li {width: 33.33333%;}
+
+}
