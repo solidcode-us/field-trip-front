@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document For Experiences Layout*/
+
+strong {font-weight: 700;}
+
+.tnav {float: left;padding: 0 0 50px;width: 100%;}
+.tnav img {height:50px;}
+
+.login-box {float:right;padding:0;}
+.login-box .btn {font-size: 18px;font-weight: 600;padding: 5px 20px;}
+
+.banner {
+    background-attachment: scroll;
+    background-color: #333;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: #fff;
+    float: left;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    min-height: 600px;
+    padding: 20px 20px 40px;
+    position: relative;
+    text-align: left;
+    text-shadow: 0 0 1px #333;
+    width: 100%;
+    z-index: 999;
+}
+.banner.banner-nav {
+    background-color: #FFF;
+    color: #333;
+    min-height: 50px;
+    padding:10px;
+    text-shadow: 0 0 1px #fff;
+}
+.banner.banner-nav .tnav {padding:0;}
+.banner.banner-nav .tnav img {height:40px;}
+.banner.banner-nav .login-box {margin:0;}
+
+
+.banner h1 {font-size:60px;margin:0;width:100%;float:left;}
+.banner h2 {margin:0;width:100%;float:left; font-weight:400;}
+.banner h3 {margin:20px 0;width:100%;float:left;}
+.banner .btn-lg {margin:30px 0;padding:10px 25px;text-shadow:none;font-size:28px;width:300px;}
+.banner strong {font-weight:600;}
+.banner .box {
+    border: 1px solid #999;
+	border-bottom:2px solid #999;
+    border-radius: 7px;
+    color: #333;
+	float:left;
+    font-size: 18px;
+    font-weight: 400;
+	line-height: normal;
+    margin: 45px 0 20px;
+	opacity:.3;
+    padding: 5px 15px;
+    width: auto;
+}
+
+
+.banner-footer {
+	background: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.55)); /*Safari 5.1-6*/
+	background: -o-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,0.55)); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,0.55)); /*Fx 3.6-15*/
+	background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.55)); /*Standard*/
+
+    bottom: 0;
+	float:left;
+    font-weight: 400;
+    left: 0;
+    position: absolute;
+	padding: 10% 15px 15px;
+	text-shadow:0 0 2px #000;
+	width:100%;
+}
+.banner-footer .play-btn {
+	display: block;
+    float: left;
+    font-size: 111px;
+    margin: 0 0 50px;
+    text-align: center;
+    width: 100%;
+}
+.banner-footer .play-btn .fa {cursor:pointer;opacity:0.5;}
+.banner-footer .play-btn .fa:hover {opacity:1;}
+.banner-footer li {display: inline-block;padding: 0 20px 0 0;width: auto;font-size: 18px;}
+.banner-footer li strong {font-size:24px;font-weight:700;}
+.banner-footer li strong small {font-size:70%;font-weight:600;vertical-align:top;}
+
+.banner-footer .fa {text-shadow:0 0 2px #000;}
+.banner-footer h1 {font-weight:400;margin:0 0 5px;}
+
+.banner-footer,
+.banner-footer:hover,
+.banner-footer:hover .play-btn,
+.banner-footer .play-btn,
+.banner-footer .play-btn .fa,
+.banner-footer .play-btn .fa:hover {
+	-webkit-transition: all 0.3s ease-in-out;
+	   -moz-transition: all 0.3s ease-in-out;
+		 -o-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;  
+}
+
+.call-to-action {float:left;width:100%;text-align:center;padding:20px 0 0;}
+.call-to-action .btn {font-size:26px;width:300px;}
+.call-to-action a {font-size:18px;font-weight:400;}
+.call-to-action a:hover {color:#0099ff;text-decoration:underline;}
+
+.call-to-action .btn {font-weight:700;}
+.call-to-action .btn:hover {color:#FFF;text-decoration:none;}
+
+.banner .call-to-action {text-align:left;padding:0;}
+.banner .call-to-action a {font-size:26px;font-weight:300;margin-right:25px;}
+
+.sec-block {background-color:#FFF;float:left;width:100%;padding:30px 0;border-top:1px solid #dedede;}
+.sec-block h1 {float:left;width:100%;text-align:center;margin:0 0 20px;font-size:50px;}
+.sec-block h2 {float:left;width:100%;text-align:center;}
+
+.sec-block .unstyled {text-align:center;margin:20px 0;}
+.sec-block .unstyled li {font-weight:400;display:inline-block;float:left;width:33.3333%;padding:15px;}
+.sec-block .unstyled li img {height:90px;}
+.sec-block .unstyled li h4 {font-weight:700;margin:15px 0 5px;font-size:22px;line-height:normal;}
+.sec-block .unstyled li p {text-align:left;margin:0;}
+
+.sec-block.logos {background-color:#f5f5f5;}
+.sec-block.logos .unstyled li {width:20%;padding:15px;}
+.sec-block.logos .unstyled li img {height:90px;}
+
+.sec-block .nav-tabs > li > a {font-size: 20px;}
+.sec-block .btn {min-width:auto;}
+
+.exp-filters {list-style:none;margin:0;float:left;width:100%;}
+.exp-filters li {font-size:25px;font-weight:400; width:auto;display:inline-block;}
+.exp-filters .exp-loc-select, .exp-filters .exp-time-select {
+    background-image: none;
+    border: medium none;
+    color: #333;
+    font-size: 25px;
+    font-weight: 700;
+    height: auto;
+    margin: 0 0 5px;
+}
+.exp-filters .exp-time-select {font-weight:600;}
+
+
+/*************** FOOTER **************/ 
+footer {
+    background-color: #333;
+    color: #999;
+    float: left;
+    margin: 0;
+    padding: 20px 10px;
+    position: relative;
+    text-shadow:0 0 2px #000;
+    width: 100%;
+}
+footer .fa {text-shadow:0 0 2px #000;}
+footer .unstyled {margin:0;width:100%;text-align: center;}
+footer .unstyled li {
+    display: inline-block;
+    font-weight: 400;
+    margin: 0 10px;
+    padding: 0;
+    width: auto;
+}
+footer .unstyled li a {padding:5px 0;color:#999;}
+footer .unstyled li a:hover {color:#FFF;}
+
+footer .unstyled.social {width:100%;margin:20px 0;}
+footer .unstyled.social li {margin:0 5px;}
+footer .unstyled.social li a {padding:0 5px;font-size:20px;}
+footer p {
+    color: #666;
+    float: left;
+    font-size: 11px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+    text-shadow: none;
+    width: 100%;
+}
+/************** FOOTER END ************/ 
+
+/******** Banner Slider **********/
+.banner.carousel.slide {padding-bottom:0;}
+
+.banner-device {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    float: right;
+    height: 450px;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: auto;
+    z-index: 999;
+}
+.carousel-inner {
+    min-height: 500px;
+    overflow: hidden;
+    padding: 0 0 10px;
+    position: relative;
+    width: 100%;
+}
+.carousel-indicators {
+    bottom: 0;
+    float: left;
+    left: 0;
+    list-style: outside none none;
+    margin: 0;
+    padding: 15px;
+    position: absolute;
+    right: auto;
+    text-align: center;
+    top: auto;
+    width: 100%;
+    z-index: 5000;
+}
+.carousel-indicators .active {background-color: #333;}
+.carousel-indicators li {
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    float: none;
+    height: 15px;
+    width: 15px;
+    z-index: 5000;
+}
+.carousel-control {
+    background: none repeat scroll 0 0 transparent;
+    border: none;
+    color: #999;
+    font-size: 70px;
+    font-weight: 300;
+    height: 80px;
+    left: 15px;
+    line-height: 30px;
+    margin-top: -40px;
+    opacity: 0.5;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 50px;
+}
+.carousel-control:hover, .carousel-control:focus {color:#333;opacity:1;}
+
+
+.sec-block .bucketlist {padding: 15px 5px;}
+.sec-block .bucketlist li {padding:5px;width:25%;}
+.sec-block .bucketlist li > a:hover {background-size: auto 111%;}
+.sec-block .bucketlist li .info {
+	background: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.75)); /*Safari 5.1-6*/
+	background: -o-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,0.75)); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,0.75)); /*Fx 3.6-15*/
+	background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.75)); /*Standard*/
+
+    color: #fff;
+    padding: 60px 15px 15px;
+    position: absolute;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+	text-shadow:0 0 2px #000;
+}
+.sec-block .bucketlist li p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px 0 0;
+    opacity: 0.9;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 0 0 2px #000;
+    white-space: nowrap;
+    width: 50%;
+}
+.sec-block .bucketlist li .date {text-align:right;text-transform:uppercase;}
